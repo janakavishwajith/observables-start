@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
           {
             this.user1Activated = true;
           }
-          else{
+          else if( userId == 2 ){
             this.user2Activated = true;
           }
       }
